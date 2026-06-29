@@ -1,0 +1,48 @@
+/* Estilos específicos para o header do Admin */
+
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: linear-gradient(135deg, #faedcd 0%, #d4a373 100%);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.admin-logo {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #3d2b1f;
+}
+
+.admin-logo span {
+  color: #d4a373;
+}
+
+.admin-nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.75rem;
+}
+
+.admin-nav-links a {
+  text-decoration: none;
+  color: #3d2b1f;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.admin-nav-links a:hover {
+  opacity: 1;
+  color: #d4a373;
+}
+
+.admin-tab-active {
+  color: #d4a373 !important;
+  border-bottom: 2px solid #d4a373;
+  padding-bottom: 5px;
+}
+
